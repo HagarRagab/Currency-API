@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    text-align: center;
+}
+#amount {
+    margin: 10px;
+    border: 1px solid #222;
+    outline: none;
+    padding: 5px;
+}
+#from {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #222;
+    outline: none;
+    padding: 5px;
+}
+.fa-solid {
+    margin-right: 10px;
+    cursor: pointer;
+}
+#convert{
+    margin: 10px;
+    border: 1px solid #222;
+    outline: none;
+    padding: 5px;
+}
+[type="submit"] {
+    background-color: #222;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+[type="submit"]:hover {
+    background-color: black;
+}
+.price {
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
